@@ -1,0 +1,21 @@
+package com.mycompany.mojprojekcik;
+
+/**
+*
+* @author macie
+*/
+public class Rycerze {
+
+public static void main(String[] args) {
+RycerzJedi luke = new RycerzJedi("Luke","niebieski");
+RycerzJedi ben = new RycerzJedi("Obi-wan","biały");
+
+RycerzJedi Anakin = new RycerzJedi("Anakin","dużo","jest");
+RycerzJedi Yoda = new RycerzJedi("Yoda","mało","nie jest");
+luke.opis();
+ben.opis();
+Anakin.opis2();
+Yoda.opis2();
+Yoda.dodaj(5);
+}
+}
